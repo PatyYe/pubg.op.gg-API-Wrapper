@@ -18,6 +18,10 @@
     "api",
     "wrapper"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PatyYe/pubg.op.gg-API-Wrapper.git"
+  },
   "author": "Patrick Knobbout <patrick@patyye.me>",
   "license": "MIT"
 }
