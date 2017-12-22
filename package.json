@@ -1,0 +1,24 @@
+{
+  "name": "pubg.op.gg",
+  "version": "0.0.1",
+  "description": "API Package for the PUBG.OP.GG API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "lodash": "^4.17.4",
+    "query-string": "^4.3.4",
+    "redis": "^2.7.1",
+    "request": "^2.81.0",
+    "request-promise": "^4.2.1"
+  },
+  "keywords": [
+    "pubg.op.gg",
+    "api",
+    "wrapper"
+  ],
+  "author": "Patrick Knobbout <patrick@patyye.me>",
+  "license": "ISC"
+}
