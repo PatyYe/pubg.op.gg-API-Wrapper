@@ -34,7 +34,7 @@ const api = new PubgAPI({
 
 api.getProfileByID('59fdabfb33bd730001661ad2', SEASON.RE2018sea1, REGION.EU, MATCH.SQUAD.size, MATCH.SQUAD.name)
   .then((profile) => {
-    const data = profile.getStats;
+    const data = profile.getStats();
     console.log(data);
   })
   .catch((err) => {
