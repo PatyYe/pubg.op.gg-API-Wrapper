@@ -4,6 +4,7 @@
 # pubg.op.gg
 
 Playerunknown's Battlegrounds API Wrapper with Redis caching.
+I've used [This Module](https://github.com/javilobo8/pubg-api-redis) as reference and appended it for the usage of the API from PUBG.OP.GG
 
 * The API is maintained and provided by [https://pubg.op.gg](https://pubg.op.gg) and all credits go to them. Thank you for providing all the data needed.
 
@@ -21,7 +22,7 @@ The API for PUBG.OP.GG doesn't require any API key. However you'll need to provi
 The results are very limited, as the origin does not provide a lot of stats, as there is no documentation, everything provided in this wrapper is what I do know so far.
 
 ```javascript
-const {PubgAPI, PubgAPIErrors, REGION, SEASON, MATCH} = require('pubg-api-redis');
+const {PubgAPI, PubgAPIErrors, REGION, SEASON, MATCH} = require('pubg.op.gg');
 
 // If no Redis configuration it wont be cached
 const api = new PubgAPI({

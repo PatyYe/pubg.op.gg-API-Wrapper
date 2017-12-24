@@ -1,11 +1,36 @@
 {
-  "name": "pubg.op.gg",
-  "version": "0.0.1",
-  "description": "API Package for the PUBG.OP.GG API",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "_from": "pubg.op.gg",
+  "_id": "pubg.op.gg@0.0.1",
+  "_inBundle": false,
+  "_integrity": "sha512-PjoAhzx2naBr3Fl8tooyefkcehu6Z3x/xas4iUrFJh8dpFpi8T1fJbPN2P4ygIbOYFF7b5tWyOCn7DwF5EymOg==",
+  "_location": "/pubg.op.gg",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "pubg.op.gg",
+    "name": "pubg.op.gg",
+    "escapedName": "pubg.op.gg",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
   },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/pubg.op.gg/-/pubg.op.gg-0.0.1.tgz",
+  "_shasum": "2d33d17b29037d6b462453843c94ca1289e18b44",
+  "_spec": "pubg.op.gg",
+  "_where": "C:\\Users\\patyy\\Documents\\Data\\Projects\\pubg.op.gg-testing",
+  "author": {
+    "name": "Patrick Knobbout",
+    "email": "patrick@patyye.me"
+  },
+  "bugs": {
+    "url": "https://github.com/PatyYe/pubg.op.gg-API-Wrapper/issues"
+  },
+  "bundleDependencies": false,
   "dependencies": {
     "bluebird": "^3.5.0",
     "query-string": "^4.3.4",
@@ -13,15 +38,23 @@
     "request": "^2.81.0",
     "request-promise": "^4.2.1"
   },
+  "deprecated": false,
+  "description": "API Package for the PUBG.OP.GG API",
+  "homepage": "https://github.com/PatyYe/pubg.op.gg-API-Wrapper#readme",
   "keywords": [
     "pubg.op.gg",
     "api",
     "wrapper"
   ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "pubg.op.gg",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/PatyYe/pubg.op.gg-API-Wrapper.git"
   },
-  "author": "Patrick Knobbout <patrick@patyye.me>",
-  "license": "MIT"
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "0.0.1"
 }
